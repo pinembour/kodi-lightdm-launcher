@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.desktop" name="Desktop Launcher" version="1" provider-name="pinembour">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Launch Lightdm from Kodi.</summary>
+    <description lang="en_GB">This plugin adds a Kodi launcher for starting Lightdm from your Kodi setup.</description>
+    <disclaimer lang="en_GB"></disclaimer>
+    <language>en</language>
+    <platform>linux</platform>
+    <license>GPLv2</license>
+    <forum></forum>
+    <website></website>
+    <email>pinembour@teppelin.fr</email>
+    <source>https://github.com/pinembour/kodi-lightdm-launcher</source>
+    <news>
+      1 Initial release
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.png</fanart>
+        <screenshot>resources/screenshot.png</screenshot>
+    </assets>
+  </extension>
+</addon>
